@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname,'dist'), //directorio de salida de la compilacion
         filename: 'bundle.js', //nombre del archivo de salida
-        publicPath: "/",
+        publicPath: "./",
     },
     resolve:{
         extensions: ['.js','.jsx'], //extensiones a utilizar
